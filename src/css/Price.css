@@ -1,0 +1,20 @@
+.Price{
+    margin: 3rem;
+}
+.cost-inputbox-inp{
+    padding: 1rem 0.3rem;
+}
+.estimate-cost-calc{
+    padding: 1rem 2rem;
+
+}
+.ind_aboutPrice{
+    
+}
+.ind_Price p,h4{
+    display:inline-block;
+    width: 250px;
+    line-height: 30px;
+    padding-left: 0.3rem;
+    border:1px solid #ccc;
+}

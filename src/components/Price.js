@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react';
 
 const Price = () => {
     const [cost,setCost] = useState('');
-    // const [defpricefee,setDefpricefee] = useState('');
     const inputRef = useRef(null);
 
     

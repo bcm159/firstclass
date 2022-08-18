@@ -1,4 +1,4 @@
-.Price{
+.Price, .volume, .Title{
     margin: 3rem;
 }
 .cost-inputbox-inp{
@@ -13,8 +13,35 @@
 }
 .ind_Price p,h4{
     display:inline-block;
+    /* width: 100px; */
+    line-height: 30px;
+    padding-left: 0.3rem;
+    border:1px solid #ccc;
+    padding: 0 1rem;
+}
+
+.ind_Volume p{
+    display:inline-block;
     width: 250px;
     line-height: 30px;
     padding-left: 0.3rem;
     border:1px solid #ccc;
+}
+
+.cost-inputbox-ttl{
+    width: 700px;
+    padding: 0.5rem;
+}
+
+.estimate-cost-tlt{
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+.totalB{
+    margin-left: 1rem;
+}
+
+.checkvol{
+    font-weight: bold;
 }
